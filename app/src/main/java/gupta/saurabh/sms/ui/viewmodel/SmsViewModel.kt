@@ -52,6 +52,10 @@ class SmsViewModel @Inject constructor(
 
         val newSms = SmsData(sender, body, timestamp, "text", false)
 
-        smsList.value.orEmpty().toMutableList().add(0, newSms)
+        val updatedList = smsList.value.orEmpty().toMutableList()
+
+        updatedList.add(0, newSms)
+
+        smsList.value = updatedList
     }
 }
