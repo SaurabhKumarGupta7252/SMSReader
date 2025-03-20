@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SMS Reader</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="accessibility_service_description">This service helps capture RCS messages from Google Messages for better message tracking.</string>
+    <string name="search">Search here</string>
+</resources>
